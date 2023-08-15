@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+body{
+    margin: 0;
+}
+.firstW {
+    /* background-color: rgb(149, 235, 246);/. */
+    width: 100%;
+    height: 720px;
+    background-image: url(images/bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    /* background-image: linear-gradient(to top,yellow,orange,red,rgb(180, 77, 180)); */
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top:  20px;
+    padding-left: 20px;
+    padding-right: 100px;
+}
+#lang{
+    background-color: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.logo{
+    height: 120px;
+    width: 100px;
+    position: relative;
+    margin-top: -30px;
+}
+.logo-image{
+    height: 100%;
+    cursor: pointer;
+}
+.lang-div{
+    display: flex;
+}
+.globe-div{
+    height: 20px;
+    width: 17px;
+}
+.globe{
+    height: 100%;
+    margin-top: -2px;
+}
+.main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.head-heading{
+    font-family: kalam;
+    font-size: 70px;
+    letter-spacing: 1px;
+    line-height: 75px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    /* color: white; */
+    
+}
+.head-bio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.get-bt{
+    border: none;
+    padding: 15px 60px 15px;
+    border-radius: 40px;
+    background-color: rgb(116, 116, 230);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.head-info{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+    
+}
+.ppl-image-div{
+    height: 229px;
+}
+.ppl-image{
+    height: 100%;
+    overflow: hidden;
+}
+.secondW{
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    background-color: rgb(246, 241, 241);
+    margin-top: -60px;
+}
+.firstfe, .thirdfe{
+    display: flex;
+    column-gap: 400px;
+    justify-content: center;
+}
+.fe-image-div{
+    height: 250px;
+    width: 0%;
+}
+.fe-image{
+    height: 100%;
+}
+.fe-info{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    
+    font-weight: bold;
+    width: 350px;
+}
+.fe-head{
+    font-size: 27px;
+    font-weight: bold;
+    width: 300px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.fe-bio{
+    font-size: 14px;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 19px;
+    width: 300px;
+}
+.fe-bt{
+    border: none;
+    padding: 15px 40px 15px;
+    border-radius: 40px;
+    background-color: rgb(116, 116, 230);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.get-bt:hover , .fe-bt:hover{
+    background: linear-gradient(
+            to top, yellow, #ff6b08,
+             red, violet);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+
+.secondfe{
+    display: flex;
+    margin-left: 60px;
+}
+.devices-div{
+    display: flex;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.device-logo{
+    cursor: pointer;
+    width: 30px;
+}
+.device-logo:hover{
+    transform: scale(1.1);
+}
+.horiz-fe{
+    padding: 50px 0px 100px;
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 50px;
+
+}
+.horiz{
+    width: 250px;
+    background-color:rgb(162, 155, 155);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 40px 20px 40px ;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.horiz:hover .hor-image ,.horiz:hover .hor-image2{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 10px white);
+
+}
+.hor-image-div{
+    display: flex;
+    justify-content: center;
+}
+.hor-image{
+    height: 220px;
+    transition: 0.2s;
+}
+.hor-image2{
+    height: 160px;
+    transition: 0.2s;
+}
+.hor-info{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.branches-img{
+    height: 530px;
+    width: 1000px;
+}
+.thirdW{
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+}
+.footer-info{
+    padding: 150px 0px 40px;
+}
+.right-sec{
+    word-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    
+}
+.count {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.hq{
+    font-weight: 400;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+::-webkit-scrollbar{
+    background-image: linear-gradient(to top, yellow,orange,red,violet);
+}
+
+@media (min-width:1000px)  {
+
+    .right-sec{
+    padding-top: 120px;
+    padding-right: 100px;
+    }
+    
+}
+@media (min-width:1000px) and (max-width:1309.33px) {
+    .branches-img{
+        height: 400px;
+        width: 800px;
+    }
+    .count {
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .hq{
+        font-weight: 400;
+        font-size: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+
+@media (min-width:500px) and (max-width:1000px) {
+    .branches-img{
+        height: 200px;
+        width: 400px;
+    }
+    .count {
+        font-size: 25px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .hq{
+        font-weight: 400;
+        font-size: 8px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .right-sec{
+        word-wrap: nowrap;
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+}
+@media (max-width:500px) {
+    .thirdW{
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        justify-content: center;
+    }
+} 
